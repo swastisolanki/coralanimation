@@ -1,0 +1,57 @@
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+path {
+  fill: #ffffff;
+  stroke: #634d7a;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+    background-color: none;
+   /* width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;*/
+    /*float: right;
+    left: 20%;
+    z-index: 2;*/
+    opacity: 1;
+}
+
+#example1 {
+  background: url(purpletriangles.png);
+  background-size: auto;
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #ffffff;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #2d135c;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #2d135c;
+  cursor: pointer;
+}
